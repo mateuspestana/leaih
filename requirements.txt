@@ -2,3 +2,4 @@ youtube_transcript_api
 streamlit==1.11
 bs4==0.0.1
 urllib3
+lxml==4.8.0
