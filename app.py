@@ -32,6 +32,8 @@ if __name__ == '__main__':
 
     st.title('LêAih!')
     st.subheader('Baixe a transcrição de um vídeo do Youtube')
+    st.caption("Desenvolvido por Matheus C. Pestana (matheus.pestana@iesp.uerj.br) - Versão 0.2")
+
 
     baixado = True
 
@@ -58,5 +60,3 @@ if __name__ == '__main__':
     if ler:
         st.markdown(f'#### Transcrição do vídeo "{titulo_video}" ')
         st.write(texto)
-
-    #st.caption("Desenvolvido por Matheus C. Pestana (matheus.pestana@iesp.uerj.br)")
