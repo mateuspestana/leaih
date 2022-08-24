@@ -1,4 +1,4 @@
 youtube_transcript_api
 streamlit==1.11
-bs4
-urllib
+bs4==0.0.1
+urllib3
