@@ -64,7 +64,7 @@ if __name__ == '__main__':
             with st.spinner("Baixando transcrição..."):
                 texto = pegaLegenda(id_video)
                 baixado = False
-                appendaBase(url_video, id_video, titulo_video)
+                #appendaBase(url_video, id_video, titulo_video)
 
 
 
@@ -76,5 +76,5 @@ if __name__ == '__main__':
         st.markdown(f'#### Transcrição do vídeo "{titulo_video}" ')
         st.write(texto)
 
-    with total_baixado:
-        st.metric("Transcrições já processadas", lenBase())
+    #with total_baixado:
+    #    st.metric("Transcrições já processadas", lenBase())
